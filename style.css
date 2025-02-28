@@ -8,7 +8,13 @@ body {
     padding: 0;
     background-color: #0f0f0f;
     color: #fff;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+html {
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
 }
 
 /* Фон с изображением MLBB */
