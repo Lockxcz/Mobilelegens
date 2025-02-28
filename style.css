@@ -1,20 +1,26 @@
 /* Подключаем шрифт и стили */
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
 
-body {
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto !important;
+    touch-action: auto;
     font-family: 'Orbitron', sans-serif;
     text-align: center;
     margin: 0;
     padding: 0;
     background-color: #0f0f0f;
     color: #fff;
-    overflow-x: hidden;
-    overflow-y: auto;
 }
 
-html {
-    scroll-behavior: smooth;
-    -webkit-overflow-scrolling: touch;
+@media (max-width: 768px) {
+    body {
+        position: relative;
+        min-height: 100vh;
+        overflow: scroll !important;
+    }
 }
 
 /* Фон с изображением MLBB */
