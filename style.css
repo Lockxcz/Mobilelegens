@@ -8,7 +8,7 @@ body {
     padding: 0;
     background-color: #0f0f0f;
     color: #fff;
-    overflow: auto;
+    overflow: hidden;
 }
 
 /* Фон с изображением MLBB */
@@ -100,7 +100,7 @@ button {
     transition: all 0.3s ease;
     box-shadow: 0 0 15px rgba(0, 153, 255, 0.6);
     position: relative;
-    overflow: auto;
+    overflow: hidden;
 }
 
 button::before {
